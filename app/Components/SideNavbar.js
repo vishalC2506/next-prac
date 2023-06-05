@@ -23,7 +23,7 @@ const SideNavbar = () => {
           <h6 className="font-medium text-light-green text-xs">12 members</h6>
         </div>
 
-        <select className="w-4 h-4 bg-nav-bg text-white absolute left-[20%] right-1/4 top-[4%] ">
+        <select className="w-4 h-4 bg-nav-bg text-white ml-[45%] mt-3 ">
           select
         </select>
       </div>
@@ -46,7 +46,7 @@ const SideNavbar = () => {
             src="/images/swastic.png"
             width={22}
             height={18}
-            className=" ml-[60%] pt-4"
+            className=" ml-[60%] pt-"
           />
          
         </div>
