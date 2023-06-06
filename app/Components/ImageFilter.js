@@ -127,7 +127,7 @@ const ImageFilter = () => {
             />
           </div>
         </div>
-        <div className="flex h-12 mt-6 justify-center items-center">
+        <div className="flex h-12 mt-4 justify-center items-center">
           <Image
             src="/images/AddIcon.png"
             width={15}
@@ -139,7 +139,7 @@ const ImageFilter = () => {
             Add effect
           </h5>
         </div>
-        <div className=" mt-2  flex justify-center items-center ">
+        <div className="   flex justify-center items-center ">
           <h5 className=" font-bold text-transparent text-lg bg-clip-text bg-gradient-to-b from-slate-200 to-gray-800 opacity-40">
             Hue/Saturation
           </h5>
