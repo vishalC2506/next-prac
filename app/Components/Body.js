@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Body = () => {
   return (
-    <div className=" w-[1092px] bg-nav-bg rounded-[20px] mt-2">
+    <div className=" w-full bg-nav-bg rounded-[20px] mt-2 p-2 mb-8">
       <div className="flex m-2  ">
         <button className="pr-2 ml-4">
           <Image src="/images/sideArrow.png" width={4.65} height={10} />
@@ -20,7 +20,7 @@ const Body = () => {
           src="/images/star.png"
           width={16}
           height={16}
-          className="ml-[38.5%] w-4 h-4 mt-2"
+          className="ml-[41.5%] w-4 h-4 mt-2"
         />
         <h5 className="text-nav-gen leading-6 font-semibold text-base ml-[5%] mt-1">
           Export

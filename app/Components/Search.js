@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Search = () => {
   return (
-    <div className="w-[1092px] h-[96px] bg-nav-bg mt-20 rounded-[20px] flex flex-row items-center gap-6 p-6">
+    <div className="w-full h-[96px] bg-nav-bg mt-3 rounded-[20px] flex flex-row items-center gap-6 p-6">
       <Image
         src="/images/micIcon.png"
         width={12}

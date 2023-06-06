@@ -7,16 +7,16 @@ import SideNavbar from "./Components/SideNavbar";
 export default function Home() {
   return (
     <div
-      className={`w-[1440px] h-[1024px] border-2 border-red-500
+      className={`w-full h-screen
                  bg-Nobel-black flex flex-row items-start p-3 gap-3
                  relative rounded-3xl`}
     >
       <SideNavbar />
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full h-full ">
         <Header />
         <Body />
         <ImageFilter />
-        <Search/>
+      <Search/>
       </div>
     </div>
   );

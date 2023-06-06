@@ -4,9 +4,9 @@ import React from "react";
 const SideNavbar = () => {
   return (
     <nav
-      className={`flex flex-col items-start p-0 w-[312px] h-[1000px] bg-nav-bg rounded-[20px] self-stretch grow-0 relative `}
+      className={`flex flex-col items-start p-0 min-w-[312px] h-full bg-nav-bg rounded-[20px] self-stretch grow-0 relative `}
     >
-      <div className="w-full flex m-2 mt-6 ">
+      <div className="w-full flex m-2 mt-4 ">
         <Image
           className="flex-none order-none"
           src="/images/Avatar.png"
@@ -23,15 +23,15 @@ const SideNavbar = () => {
           <h6 className="font-medium text-light-green text-xs">12 members</h6>
         </div>
 
-        <select className="w-4 h-4 bg-nav-bg text-white ml-[45%] mt-3 ">
+        <select className="w-4 h-4 bg-nav-bg text-white ml-[45%] mt-2 ">
           select
         </select>
       </div>
-      <div className="w-full flex flex-col m-4 mt-8">
+      <div className="w-full flex flex-col m-4 mt-4">
         <h5 className="font-semibold text-xs text-nav-gen font-Plus">
           GENERAL
         </h5>
-        <div className="flex items-center text-center tracking-[0.15px] leading-5 mt-6">
+        <div className="flex items-center text-center tracking-[0.15px] leading-5 mt-2">
           <Image
             src="/images/search.png"
             width={13.33}
@@ -46,7 +46,7 @@ const SideNavbar = () => {
             src="/images/swastic.png"
             width={22}
             height={18}
-            className=" ml-[60%] pt-"
+            className=" ml-[60%] pt-4"
           />
          
         </div>
@@ -64,17 +64,17 @@ const SideNavbar = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col ml-2 mt-10">
-        <h5 className="font-semibold text-xs text-nav-gen font-Plus">
+      <div className="w-full flex flex-col ml-2 mt-6">
+        <h5 className="font-semibold text-xs text-nav-gen font-Plus pl-2">
           PROJECTS
         </h5>
-        <div className="mt-8 border-box flex flex-row items-center bg-hero-pattern h-[46px] w-[296px] pl-2 ">
+        <div className="mt-8 border-box flex flex-row items-center bg-hero-pattern h-[46px] w-[296px] pl-2 rounded-md ">
           <Image src="/images/orbital.png" width={15} height={15} />
           <button className="text-white w-[115px] h-[20px] font-semibold text-sm leading-5 ml-2">
             Orbital Oddysey
           </button>
         </div>
-        <div className="w-full flex mt-8 ml-2">
+        <div className="w-full flex mt-6 ml-2">
           <Image src="/images/digital.png" width={18.33} height={16.67} />
           <button className="text-white w-[156px] h-[20px] font-semibold text-sm leading-5 ml-2">
             Digital Product Launch
