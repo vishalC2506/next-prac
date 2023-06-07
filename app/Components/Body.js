@@ -4,7 +4,7 @@ import ImageFilter from "./ImageFilter";
 
 const Body = () => {
   return (
-    <div className=" w-full bg-nav-bg rounded-[20px] mt-2 p-2 h-[65%] sm:h-[68%] overflow-hidden border-2 border-red-400  ">
+    <div className=" w-full bg-nav-bg rounded-[20px] mt-2 p-2 h-[65%] sm:h-[68%] overflow-hidden  ">
       <div className="flex m-1  h-[56px] items-center w-full  ">
         <button className="pr-2 ml-4">
           <Image
