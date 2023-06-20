@@ -15,7 +15,7 @@ const SideNavbar = () => {
   return (
     <nav
       className={`sm:flex flex-col items-start p-0 sm:w-[20%]
-                  h-full bg-nav-bg rounded-[2%] self-stretch 
+                  h-screen bg-nav-bg rounded-[2%] self-stretch 
                   grow-0 relative md:w-[28%]   ${
                     !isActive
                       ? "flex w-screen z-10 opacity-90 absolute left-0 top-0"
